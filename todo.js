@@ -33,7 +33,6 @@ function addRowToDom(textValue, checkValue){
     div.appendChild(textField);
     div.appendChild(checkBox);
     div.appendChild(save);
-    //container.appendChild(div);
     container.insertBefore(div, container.firstChild);
 }
 function addRowTolocSto(text, check){
